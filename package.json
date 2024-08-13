@@ -1,0 +1,23 @@
+{
+  "name": "local_s3_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.627.0",
+    "config": "^3.3.12",
+    "dotenv": "^16.4.5",
+    "dotenv-webpack": "^8.1.0",
+    "s3rver": "^3.7.1",
+    "webpack": "^5.93.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  }
+}
