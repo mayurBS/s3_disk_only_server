@@ -1,6 +1,6 @@
 {
     "S3_SERVER": {
-      "PORT": 4569,
+      "PORT": 5569,
       "HOST": "127.0.0.1",
       "S3_DIRECTORY": "/sdna_fs/CACHE"
     }
