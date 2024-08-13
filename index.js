@@ -14,7 +14,7 @@ const startS3Server = async () => {
       port: s3ServerConfig.PORT,
       address: s3ServerConfig.HOST,
       silent: false,
-      directory: s3ServerConfig.S3_DIRECTORY,
+      directory: s3ServerConfig.CACHE_PATH,
     });
     
     await s3rver.run();
